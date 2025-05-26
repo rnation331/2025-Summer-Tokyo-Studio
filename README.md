@@ -115,7 +115,7 @@ Add data/model output into the dashboard using the following methods
 │   └── README.md                # Model objectives, inputs/outputs, run instructions
 │
 ├── dashboards/                  # Interactive platform 
-│   ├── DT_links.md              # ArcGIS Dashboard + Experience Builder URLs
+│   ├── README.md              # ArcGIS Dashboard + Experience Builder URLs
 │
 ├── docs/                        # Project documentation
 │   ├── use_cases.md             # Urban risk & regeneration scenarios

@@ -27,9 +27,9 @@ Urban digital twins are used here as an **interactive GIS-based platform** to si
 
 
 
-## Contributor Instructions: ArcGIS Digital Twin Platform
+## Contributor Instructions: 
 
-### 1. Access the Platform
+### 1. Access the ArcGIS Online Platform
 
 - Go to:  [link](https://gtmaps.maps.arcgis.com/), sign in with **Georgia Tech SSO Login**
 - Join the ArcGIS Online Group [link](https://arcg.is/0zSCb9)

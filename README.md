@@ -24,6 +24,71 @@ Urban digital twins are used here as an **interactive GIS-based platform** to si
   - **Dashboards** [link](https://www.arcgis.com/apps/dashboards/d30d95c5c09d414fbbe9ca41170330ec)
   - **Experience Builder** [link](https://experience.arcgis.com/experience/dba9870d0c0f4f36a501eca5dc9c27d5)
 
+
+
+
+## Contributor Instructions: ArcGIS Digital Twin Platform
+
+### 1. Access the Platform
+
+- Go to:  [link](https://gtmaps.maps.arcgis.com/), sign in with **Georgia Tech SSO Login**
+- Join the ArcGIS Online Group [link](https://arcg.is/0zSCb9)
+---
+
+### 2. Uploading Data Layers
+
+Before uploading, ensure (if necessary):
+- All spatial data are uniformly projected using WGS 84 or Japan National Coordinate System (JGD). (WGS84, JGD2000)
+- Time fields are uniformly formatted to support event-driven and time-series analysis. (YYYY-MM-DDTHH:mm:ss.sssZ)
+- Each layer is accompanied by a README-style metadata document, which specifies field definitions, data sources, collection time and unit specifications.
+· Unified spatial ID fields (e.g. parcel number, building ID, etc.) are used for each layer to facilitate spatial connection and attribute merging. (Based on the existing building layer ID and used for joining related data.)
+
+Items supported in ArcGIS Online: [link](https://doc.arcgis.com/en/arcgis-online/reference/supported-items.htm)
+- Shapefiles (.shp)
+- Raster Datasets (.tif, .img, etc.)
+- GeoJSON
+- CSV
+- ...
+
+Steps:
+1. Go to ArcGIS Online → **Content > Add Item > From your computer or web**
+2. Use clear file naming
+3. Add description
+4. Add tags:   
+   - topic (`risk`, `regen`, `mobility`)
+5. Go to the Group Content section, then click **Add items to group** to add existing layers with the group.
+---
+
+### 3. Uploading Simulation Models
+
+Package files as a ZIP:
+- `model.py`, `readme.txt`, `inputs/`, `outputs/`
+
+Upload options:
+- **GitHub**: Place the model in `/models/urban_risk/` or `/models/regeneration/` 
+- Or, upload the ZIP to **Data 2025** in Teams and share the access link in if your file or folder is too large for GitHub
+
+---
+
+### 4. Visualization Integration
+
+Add data/model output into the dashboard using the following methods
+- 3D model to ArcGIS Urban (DAE, FBX, DWG, OBJ...) [link](https://doc.arcgis.com/en/urban/latest/help/help-external-layers.htm)
+- Images, diagrams, or GIFs to be embedded in dashboard.
+- Shapefile, Scene Layer, Geojson, CSV (with coordinates) to ArcGIS Online Web Map
+- Map animation or large point/cloud data, use Kepler.gl
+
+---
+
+### 5. Metadata & Documentation
+
+- Each upload should be listed in `data/metadata/` with:
+  - Title, description, source, coordinate system, last updated
+- Simulation models should include a `README.md` with:
+  - Purpose, inputs and outputs, applicable scenarios, required tools, and how to run
+
+
+
 ## Tools and Technologies
 - GIS: ArcGIS Pro, ArcGIS Online, Experience Builder
 - Simulation: Rhino/Grasshopper, AnyLogic, Python (ABM, NetworkX)

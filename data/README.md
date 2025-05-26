@@ -16,5 +16,19 @@
 | Digital Land Information Data | The Geospatial Information Division                                                           | [Link](https://nlftp.mlit.go.jp/ksj/index.html)                                                              | GIS Data: topography, land use, public facilities, transportation, disaster risk information, urban planning, and land prices |
 
 
-## 2023 Studio Data
-[link](https://gtvault.sharepoint.com/:f:/s/2025SummerTokyoResearchStudio/EvyN2BEU9RFMolTIGMZ5pTIBxvXgm8-b6NBmgAQ15Q7O7g?e=mtThDy)
+
+## Geodatabase: 2023 Tokyo Studio
+
+This geodatabase contains spatial features from the 2023 Tokyo Studio project.  
+Data is organized into feature datasets by theme, including:
+
+- Boundaries  
+- Buildings  
+- Transportation  
+- Demographics  
+- Activity patterns  
+- Environmental data  
+- Scenario outputs
+
+
+### Download the [README.xlsx](./2023 Data/README.xlsx) file.

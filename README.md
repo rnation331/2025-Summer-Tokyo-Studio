@@ -15,8 +15,14 @@ Urban digital twins are used here as an **interactive GIS-based platform** to si
 
 ### 2. Urban Regeneration
 - Focus: Low-frequency urban problems such as urban design and redevelopment
-- Method: 3D design models, carbon modeling, scenario planning
+- Method: 3D models, energy modeling, scenario planning
 
+### 3. GIS-based interactive platform
+- Output data is published to an **ArcGIS Online group**. [link](https://arcg.is/0zSCb9)
+- Data is visualized through:
+  - **Web Maps**
+  - **Dashboards** [link](https://www.arcgis.com/apps/dashboards/d30d95c5c09d414fbbe9ca41170330ec)
+  - **Experience Builder** [link](https://experience.arcgis.com/experience/dba9870d0c0f4f36a501eca5dc9c27d5)
 
 ## Tools and Technologies
 - GIS: ArcGIS Pro, ArcGIS Online, Experience Builder
@@ -40,7 +46,7 @@ Urban digital twins are used here as an **interactive GIS-based platform** to si
 │
 ├── models/                      # Simulation models
 │   ├── urban_risk/              # ABM for evacuation
-│   ├── regeneration/            # Urban form, carbon modeling, energy simulation
+│   ├── urban_regeneration/            # Urban form, carbon modeling, energy simulation
 │   └── README.md                # Model objectives, inputs/outputs, run instructions
 │
 ├── dashboards/                  # Interactive platform 

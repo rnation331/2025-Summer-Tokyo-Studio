@@ -1,6 +1,6 @@
 # 2025-Summer-Tokyo-Studio
 
-## Tokyo Digital Twin for Urban Risk and Regeneration
+## Nihonbashi Digital Twin for Urban Risk and Regeneration
 
 This repository supports a digital twin system for **Nihonbashi, Tokyo**, as a strategic planning platform for urban revitalization and carbon neutrality.
 
